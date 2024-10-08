@@ -19,7 +19,7 @@ jobs:
 
       - name: Install project dependencies
         run: npm install
-        working-directory: ./shiv-react-app
+        working-directory: /shiv-react-app
 
       - name: Run the tests
         run: npm test

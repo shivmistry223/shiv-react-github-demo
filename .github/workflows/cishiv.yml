@@ -18,8 +18,9 @@ jobs:
           node-version: "16"
 
       - name: Install project dependencies
-        run: npm install
-        working-directory: /shiv-react-app
+        run: |
+         cd ./shiv-react-app
+         npm install
 
       - name: Run the tests
         run: npm test

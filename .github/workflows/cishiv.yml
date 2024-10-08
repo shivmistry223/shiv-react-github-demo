@@ -19,7 +19,7 @@ jobs:
 
       - name: Install project dependencies
         run: |
-         cd ./shiv-react-app
+         cd ../shiv-react-app/
          npm install
 
       - name: Run the tests
